@@ -4,8 +4,6 @@ package com.javarush.task.task04.task0419;
 Максимум четырех чисел
 */
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.io.*;
 
 public class Solution {

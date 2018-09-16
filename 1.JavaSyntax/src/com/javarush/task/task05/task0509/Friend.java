@@ -4,8 +4,6 @@ package com.javarush.task.task05.task0509;
 Создать класс Friend
 */
 
-import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
-
 public class Friend {
     //напишите тут ваш код
     String name;

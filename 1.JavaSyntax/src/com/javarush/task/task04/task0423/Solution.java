@@ -4,7 +4,6 @@ package com.javarush.task.task04.task0423;
 Фейс-контроль
 */
 
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.io.*;
 

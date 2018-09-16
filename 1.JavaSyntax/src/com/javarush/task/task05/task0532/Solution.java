@@ -1,7 +1,5 @@
 package com.javarush.task.task05.task0532;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.io.*;
 
 /* 
