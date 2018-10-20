@@ -87,6 +87,7 @@ public class Solution {
                 }
                 fw.flush();
             }
+            fw.close();
         }
 
         public void load(InputStream inputStream) throws Exception {
@@ -101,6 +102,7 @@ public class Solution {
                 while (buf.ready())
                     assets.add(new Asset(buf.readLine(), Double.parseDouble(buf.readLine())));
             }
+            buf.close();
         }
     }
 }
