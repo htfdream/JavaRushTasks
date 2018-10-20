@@ -32,16 +32,12 @@ public class Solution {
 
         while (m.find()){
             open.add(m.start());
-       //     System.out.println(m.start());
-       //     System.out.println(m.group());
         }
 
         pp = Pattern.compile("</?" + args[0] + ".*?>");
         m = pp.matcher(s);
         while (m.find()){
             all.add(m.start());
-                 //System.out.println(m.start());
-            //     System.out.println(m.group());
         }
 
         for (Integer on: open) {
